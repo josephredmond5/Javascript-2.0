@@ -1,26 +1,16 @@
-// string
-    console.log('hello world');
+// // common string methods
 
-    let email = 'josephredmond@gmail.com';
-    console.log(email);
+// let email = 'joe@me.com';
 
-// string concatenation 
-let firstName = 'Brandon';
-let secondName = 'Sanderson';
-let fullName = firstName + ' ' + secondName;
+// // let result = email.lastIndexOf('c');
 
-console.log(fullName)
-// getting characters 
-console.log(fullName[0]); // this will get us the letter B
-console.log(fullName[2]); // this will get us the letter A
+// // let result = email.slice('3') // this slices from the position by number 
 
-// string length
-console.log(fullName.length); // this gets us the length of the string
+// // let result = email.substring(0, 4);
 
-// string methods
-    console.log(fullName.toUpperCase());
-    let result = fullName.toLowerCase();
-    console.log(result + ' / ' + fullName); // WORK
+// let result = email.replace('m', 'w')
 
-    let index = email.indexOf('@'); // finds what position the @ symbol is at
-    console.log(index);
+// console.log(result);
+
+
+
